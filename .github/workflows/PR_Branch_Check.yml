@@ -1,6 +1,7 @@
 name: PR Branch Check
 
 on:
+  pull_request_target:
   # Using pull_request_target instead of pull_request for secure handling of fork PRs
 
 permissions:
